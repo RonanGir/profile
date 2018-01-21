@@ -1,0 +1,48 @@
+.card {
+  background: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+
+  img {
+    width: 150px;
+    margin: 30px 0px;
+  }
+
+  i {
+    font-size: 25px;
+    padding: 0 15px;
+  }
+
+  a {
+    color: $yellow;
+  }
+
+  a:hover {
+    color: $gray;
+  }
+
+}
+
+.card-content {
+
+  h2 {
+  padding: 20px;
+  margin: 30px 0px;
+  }
+}
+
+.home-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-header {
+  background-color: $yellow;
+  margin: 0;
+}
+
+
